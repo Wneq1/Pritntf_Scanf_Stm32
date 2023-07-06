@@ -11,6 +11,7 @@ Oto kilka kroków:
 3. Napisac odpowiedni program w C:
 
 Kod Programu:
+
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
@@ -94,10 +95,10 @@ RetargetInit(&huart2);
   {
     /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
+    /* USER CODE BEGIN 3 
 	  printf("\r\nYour name: ");
-	    scanf("%s", buf);
-	    printf("\r\nHello, %s!\r", buf);
+	  scanf("%s", buf);
+	  printf("\r\nHello, %s!\r", buf);
   }
   /* USER CODE END 3 */
 }
