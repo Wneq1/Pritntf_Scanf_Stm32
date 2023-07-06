@@ -5,10 +5,10 @@ W celu wygodnego korzystania z funkcji Printf oraz Scanf można skorzystac z got
 https://shawnhymel.com/1873/how-to-use-printf-on-stm32/
 Oto kilka kroków:
 1. Umiescic pliki c i h w odpowiednich folderach
-2. ![image](https://github.com/Wneq1/Pritntf_Scanf_Stm32/assets/127328405/f8240c2b-ee55-4d0a-8ec0-33bc762cc305)
-3. Odpowiednio skonfigurować plik syscall.c
+ ![image](https://github.com/Wneq1/Pritntf_Scanf_Stm32/assets/127328405/f8240c2b-ee55-4d0a-8ec0-33bc762cc305)
+2. Odpowiednio skonfigurować plik syscall.c
 ![image](https://github.com/Wneq1/Pritntf_Scanf_Stm32/assets/127328405/f35449d4-4f26-4798-bfaa-0c5055158006)
-4. Napisac odpowiedni program w C:
+3. Napisac odpowiedni program w C:
 
 Kod Programu:
 /* Includes ------------------------------------------------------------------*/
